@@ -89,7 +89,7 @@ st.markdown(
 
 # Image upload
 st.markdown('<div class="camera-input-container">', unsafe_allow_html=True)
-img = st.st.file_uploader("Get Your Personal Colour Analysis!", type=['png', 'jpg'])
+img = st.file_uploader("Get Your Personal Colour Analysis!", type=['png', 'jpg'])
 
 if img is not None:
     # Display the captured image
